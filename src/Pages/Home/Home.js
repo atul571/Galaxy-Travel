@@ -1,0 +1,21 @@
+
+import Navbar from '../../Components/Navbar/Navbar'
+import Hero from './Components/Hero'
+import About from "./Components/About";
+import Services from "./Components/Services";
+import "../Home/HomeStyles.css"
+import CallToAction from './Components/CallToAction';
+
+const Home = () => {
+  return (
+    <div>
+      <Navbar />
+      <Hero />
+      <About />
+      <Services />
+      <CallToAction/>
+    </div>
+  );
+}
+
+export default Home
