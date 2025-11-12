@@ -6,9 +6,21 @@ const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => {
     setClick(!click);
+  };
+
+  const[color, setColor] = useState(false);
+
+  const handleColor = () =>{
+    if(window.scrollY >=200){
+      setColor(true);
+
+    }else{
+      setColor(false);
+    }
   }
+  window.addEventListener("scroll", handleColor)
   return (
-    <nav>
+    <nav className={color?"color":""}>
       <div className="logo">
         <h1>GLX TRVL</h1>
       </div>

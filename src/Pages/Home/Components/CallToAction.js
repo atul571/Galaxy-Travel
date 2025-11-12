@@ -1,12 +1,23 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react'
+
+import Modal from './Modal'
 
 const CallToAction = () => {
+  const [modal , setModal ] = useState(false)
+
+  const handleClick = () =>{
+   setModal(!modal)
+  }
   return (
-    <section className ="call-to-action">
+    <><section className ="call-to-action">
       <h2>Hurry up book your tickets</h2>
-      <Link to='/pricing'>know More! </Link>
+      <button onClick ={handleClick}>Know More! </button>
     </section>
+    {
+      modal && <Modal  handleClick ={handleClick} />
+}
+    </>
+    
       
     
   )

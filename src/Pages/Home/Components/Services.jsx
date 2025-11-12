@@ -25,26 +25,26 @@ const Services = () => {
         <Slider {...settings}>
           <div className="slide">
             <img src={service1} alt="Service 1" />
-            <h3>Web Development</h3>
+            <h3>Interplanetary Tours</h3>
             <p>
-              I build modern, responsive, and scalable web applications using
-              MERN Stack.
+              We organize luxury space trips to nearby planets like Mars and
+              Jupiter’s moons for an unforgettable cosmic experience.
             </p>
           </div>
           <div className="slide">
             <img src={service2} alt="Service 2" />
-            <h3>UI/UX Design</h3>
+            <h3>Zero-Gravity Adventures</h3>
             <p>
-              Designing creative, clean, and user-friendly interfaces that
-              engage users.
+              Experience fun and thrill in zero-gravity zones with our safe and
+              exciting orbit-based adventure programs.
             </p>
           </div>
           <div className="slide">
             <img src={service3} alt="Service 3" />
-            <h3>Full Stack Projects</h3>
+            <h3>Cosmic Cruise Packages</h3>
             <p>
-              From backend APIs to frontend interfaces, I deliver complete web
-              solutions.
+              Enjoy breathtaking views of stars, nebulae, and galaxies while
+              relaxing in our luxury interstellar cruise cabins.
             </p>
           </div>
         </Slider>

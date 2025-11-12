@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="content">
         <h1>Travel. Galaxies.</h1>
         <p>
-          Lorem Ipsum dolor sit Atul Yadav is greatest of all time in Goodness!
+          WELCOME TO THE NEW WORLD OF ADVENTURE!
         </p>
         <div className="buttons">
           <Link to="/training">Try Now</Link>
